@@ -1,4 +1,7 @@
 SecondApp::Application.routes.draw do
+  get "cool_pages/home"
+  get "cool_pages/help"
+  get "cool_pages/about"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
